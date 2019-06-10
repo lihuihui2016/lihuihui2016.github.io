@@ -1,0 +1,65 @@
+<!-- <template>
+    <div id="app">
+      <div id="nav">
+        <router-view></router-view>
+  
+         <div class="footer" v-for="(item,i) in foots" :key='i'>
+           <router-link :to="{name:item.name}">
+              <i class="iconfont" v-html="item.icon"></i>
+              <span>{{ item.txt }}</span>
+            </router-link>|
+          
+        </div>
+      </div>
+  
+    </div>
+  </template>
+  
+  // <script>
+  // export default {
+  //   name: "foot",
+  //   data() {
+  //     return {
+  //       foots: [
+  //         { txt: "聊天", path: "/chat", name: "chat ", icon: "&#xe62b;" },
+  //         { txt: "通讯录", path: "/list", name: "list ", icon: "&#xe649;" },
+  //         { txt: "发现", path: "/about", name: "about ", icon: "&#xe629;" },
+  //         { txt: "我的", path: "/mine", name: "mine", icon: "&#xe68f;" }
+  //       ]
+  //     };
+  //   }
+  // };
+  // </script>
+  
+  
+  <style lang="scss">
+  #app {
+    font-family: "Avenir", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+  }
+  #nav {
+    .footer {
+      width: 100%;
+      height: 50px;
+      box-sizing: border-box;
+      display: flex;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      a {
+        font-weight: bold;
+        color: #2c3e50;
+        font-size: 1rem;
+        width: 25%;
+        text-decoration: none;
+        &.router-link-exact-active {
+          color: #42b983;
+        }
+      }
+    }
+  }
+  </style>
+   -->
